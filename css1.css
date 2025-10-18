@@ -1,0 +1,51 @@
+header {
+    display:grid;
+    grid-template-columns: 380px 380px 380px;
+    grid-template-rows: 582px 582px 582px;
+    gap: 20px;
+}
+.card4 {
+    width: 380px;
+    border-radius: 8px;
+    border: 1px rgba(242, 246, 250, 1);
+}
+.box1 {
+    padding: 50px 89px 50px 44px;
+}
+.title {
+    color:rgba(46, 54, 62, 1);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 143%;
+    margin-bottom: 12px;
+}
+.description {
+    color:rgba(46, 54, 62, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 24px;
+}
+.cost {
+    color:rgba(67, 75, 83, 1);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    margin-bottom: 14px;
+}
+.btn4 {
+    background-color: rgba(254, 216, 76, 1);
+    color:rgba(46, 54, 62, 1);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    border-radius: 8px;
+    border: none;
+    padding: 20px 40px;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
