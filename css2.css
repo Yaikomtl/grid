@@ -1,0 +1,159 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E1EDE6;
+    padding: 33px 165px;
+    align-items: center;
+    width: 1440px;
+    height: 100px;
+}
+
+.words1 {
+    display: flex;
+    gap: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #2C2D35;
+}
+
+.yaiko-text1 {
+    color: #598D66;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}
+
+.yaiko-textmain {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 110.00000000000001%;
+    color: #2C2D35;
+    margin-bottom: 20px;
+    width: 540px;
+}
+
+.spanyaiko {
+    color: #598D66;
+}
+
+.yaikocontent {
+    color: #86928B;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 60px;
+    width: 540px;
+}
+
+.yaiko-btn {
+    width: 225px;
+    height: 65px;
+    border: 1px solid #598D66;
+    padding: 20px 60px;
+    background-color: white;
+    color: #598D66;
+}
+
+.yaikopic3 {
+    display: none;
+}
+
+.doublemenu {
+    display: none;
+}
+.list {
+    display: flex;
+}
+
+@media (max-width: 1024px) {
+    .yaiko-textmain {
+        width: 330px;
+        font-size: 40px;
+        line-height: 100%;
+    }
+
+    .main img {
+        width: 330px;
+        height: 380px;
+    }
+
+    .yaikocontent {
+        width: 330px;
+    }
+
+    .words1 {
+        font-size: 18px;
+    }
+
+    .menu {
+        padding: 33px 39px;
+        width: 768px;
+    }
+
+    .yaiko-btn {
+        width: 210px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .yaikopic3 {
+        display: flex;
+    }
+
+    .yaikopic2 {
+        display: none;
+    }
+
+    .menu {
+        width: 320px;
+        height: 68px;
+        background-color: #FFFFFF;
+        align-items: center;
+        padding: 17px 88.5px 16px 88.5px;
+    }
+
+    .doublemenu {
+        display: flex;
+        background-color: #E1EDE6;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 320px;
+        height: 62px;
+    }
+    .words1 {
+        display: none;
+    }
+    .yaiko-textmain {
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    .yaikocontent {
+        margin-bottom: 40px;
+    }
+    .yaiko-btn {
+        padding: 14.5px 29px;
+    }
+    .list {
+        margin-right: 15px;
+    }
+    .yaikopic3 {
+        margin-left: 15px;
+    }
+}
+
