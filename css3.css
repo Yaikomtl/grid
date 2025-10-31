@@ -1,0 +1,70 @@
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+body {
+    width: 730px;
+}
+
+.yaiko2 {
+    background-color: #E1EDE6;
+    width: 350px;
+    height: 730px;
+    display: flex;
+}
+
+.yaiko-picture {
+    padding: 20px 20px;
+}
+
+.yaikotext3 {
+    padding: 0px 225px 10px 20px;
+    font-weight: 500;
+    color: #86928B;
+    line-height: 100%;
+    font-size: 18px;
+    width: 140px;
+    height: 21px;
+}
+
+.yaiko-content3 {
+    color: rgba(44, 45, 53, 1);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 100%;
+    padding: 0px 20px 8px 20px;
+}
+
+.yaikotext4 {
+    color: rgba(44, 45, 53, 1);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    padding: 0px 20px 30px 20px;
+}
+
+.yaiko-price {
+    color: rgba(89, 141, 102, 1);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    padding: 0px 207px 20px 20px;
+}
+
+.yaiko-btn2 {
+    width: 310px;
+    height: 65px;
+    background-color: rgba(225, 237, 230, 1);
+    color: rgba(89, 141, 102, 1);
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding: 21px 106.5px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.yaikohelppicture {
+    padding: 0px 20px 30px 20px;
+}
