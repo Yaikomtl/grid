@@ -1,0 +1,23 @@
+body{
+    font-family:"Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: aquamarine;
+}
+@font-face {
+    font-family: "MyFont";
+    src: url(./static/BitcountGridSingle-Medium.ttf)
+}
+.div1{
+    color: #1E23;
+    font-family: MyFont;
+}
+@font-face {
+    font-family: "Myfont1";
+    src: url(./static/BitcountGridSingle-ExtraBold.ttf)
+}
+.div2 {
+    color: rgba(170, 239, 176, 0.2);
+    font-family: MyFont1;
+}
